@@ -1,0 +1,13 @@
+# .gitignore
+
+# Node modules
+node_modules/
+
+.next/cache
+
+
+# Optional: Other common ignores
+*.log
+*.env
+*.env.local
+.DS_Store
