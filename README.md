@@ -6,15 +6,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-\`\`\`bash
 npm run dev
-# or
+
+# Or, use Yarn
 yarn dev
-# or
+
+# Or, use PNPM
 pnpm dev
-# or
+
+# Or, use Bun
 bun dev
-\`\`\`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -26,9 +27,9 @@ This project uses [\`next/font\`](https://nextjs.org/docs/basic-features/font-op
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
-- [Next.js GitHub Repository](https://github.com/vercel/next.js/) - Your feedback and contributions are welcome!
+- 📚 [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- 🧩 [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
+- 🏠 [Next.js GitHub Repository](https://github.com/vercel/next.js/) - Your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
