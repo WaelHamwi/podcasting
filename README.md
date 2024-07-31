@@ -1,21 +1,20 @@
-# Next.js Project
+echo "# Next.js Project
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [\`create-next-app\`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
 
+\`\`\`bash
 npm run dev
-
 # Or, use Yarn
 yarn dev
-
 # Or, use PNPM
 pnpm dev
-
 # Or, use Bun
 bun dev
+\`\`\`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -82,5 +81,4 @@ npx convex deploy
 - [Convex Clerk Auth](https://docs.convex.dev/auth/clerk)
 - [OpenAI Text-to-Speech Guide](https://platform.openai.com/docs/guides/text-to-speech)
 - [UploadStuff](https://uploadstuff.dev/introduction)
-- [Unsplash API](https://unsplash.com/oauth/applications/637747)
-EOF
+- [Unsplash API](https://unsplash.com/oauth/applications/637747)" > README.md
