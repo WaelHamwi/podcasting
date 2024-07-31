@@ -27,10 +27,9 @@ This project uses [\`next/font\`](https://nextjs.org/docs/basic-features/font-op
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
+- [Next.js GitHub Repository](https://github.com/vercel/next.js/) - Your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
@@ -40,50 +39,39 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Installation Commands
 
+To set up the project, run the following commands:
+
 \`\`\`bash
-npx create-next-app@latest ./
-npx shadcn-ui@latest add button
-npm install convex
-npx convex dev
-npx convex import --table tasks sampleData.jsonl
-npm install convex convex/react
-npm install --save-dev typescript ts-loader
-npm install typescript @types/react @types/node --save-dev
-npx convex dev
-npm install @clerk/nextjs 
-npm install svix
-
-npx tsc --noEmit
-npm install -g ts-node
-ts-node generateSecret.ts
-
-npx shadcn-ui@latest add form
-npx shadcn-ui@latest add input
-npx shadcn-ui@latest add select
-npx shadcn-ui@latest add textarea
-npm install openai
-
-npm run dev
-
-npm install uuid
-npm install --save-dev @types/uuid
-npm install @xixixao/uploadstuff@latest
-npx shadcn-ui@latest add toast
-
-npx tsc
-
-npx convex dev
+npx create-next-app@latest ./ && \
+npx shadcn-ui@latest add button && \
+npx shadcn-ui@latest add form && \
+npx shadcn-ui@latest add input && \
+npx shadcn-ui@latest add select && \
+npx shadcn-ui@latest add textarea && \
+npx shadcn-ui@latest add toast && \
+npx shadcn-ui@latest add progress && \
+npx shadcn-ui@latest add sheet && \
+npm install convex convex/react && \
+npx convex dev && \
+npx convex import --table tasks sampleData.jsonl && \
+npm install --save-dev typescript ts-loader && \
+npm install typescript @types/react @types/node --save-dev && \
+npm install @clerk/nextjs && \
+npm install svix && \
+npm install openai && \
+npm install uuid && \
+npm install --save-dev @types/uuid && \
+npm install @xixixao/uploadstuff@latest && \
+npm install dotenv && \
+npm install axios && \
+npm install --save-dev @types/axios && \
+npm install @google-cloud/text-to-speech && \
+npm install embla-carousel embla-carousel-autoplay embla-carousel-react && \
+npx tsc --noEmit && \
+npm install -g ts-node && \
+ts-node generateSecret.ts && \
+npx tsc && \
 npx convex deploy
-
-npm install dotenv
-npm install axios
-npm install --save-dev @types/axios
-npm install @google-cloud/text-to-speech
-
-npm install embla-carousel embla-carousel-autoplay embla-carousel-react
-
-npx shadcn-ui@latest add progress
-npx shadcn-ui@latest add sheet
 \`\`\`
 
 ## Project Links
@@ -95,10 +83,4 @@ npx shadcn-ui@latest add sheet
 - [OpenAI Text-to-Speech Guide](https://platform.openai.com/docs/guides/text-to-speech)
 - [UploadStuff](https://uploadstuff.dev/introduction)
 - [Unsplash API](https://unsplash.com/oauth/applications/637747)
-
-## Additional Information
-
-- **Image Generation**: Used [Unsplash](https://unsplash.com/oauth/applications/637747) for generating images.
-- **Voice Text-to-Speech**: Utilized [Google Cloud Text-to-Speech API](https://platform.openai.com/docs/guides/text-to-speech) for generating voice.
-
 EOF
